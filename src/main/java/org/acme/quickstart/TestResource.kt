@@ -24,7 +24,7 @@ class TestResource {
     fun hello() = "hello"
 
     @GET
-    @Path("/fails")
+    @Path("/failsDevMode")
     @Produces(MediaType.APPLICATION_JSON)
     fun echo() : Response {
         try {
