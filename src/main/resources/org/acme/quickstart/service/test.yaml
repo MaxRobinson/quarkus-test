@@ -1,1 +1,4 @@
-"hello": "TestValue"
+"hello": "test"
+"info" :
+  "who" : "TestInfo"
+  "more" : "TestMore"

@@ -1,3 +1,8 @@
 package org.acme.totallydifferentpackage
 
-data class Hello(val hello: String = "goodbye")
+import org.acme.common.MyInfo
+
+class MyData(var hello: String, var info: MyInfo){
+    constructor():
+        this("default", MyInfo("default", "default"))
+}
